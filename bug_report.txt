@@ -1,0 +1,13 @@
+1. ID - Identification number which is assigned to a particular bug
+2. Summary - Short description of the problem, clearly indicating the cause and type of the error situation
+3. Project - Name of the test project
+4. Version - Version in which the bug was found
+5. Severity - is an atribute that characterizes the effect of a defect on the health of application
+6. Priority - is an attribute that indicates the order of execution a task or the elimination of a defect.
+7. Status - status of the bug. Depends on bug workflow and life cycle.
+8. Author - Creator of the bug report.
+9. Assigned to - name of the employee assigned to solve the problem.
+10. Environment - information about the environment on wich the bug was found:.
+11. Steps to reproduce - steps that will help to easily reproduce the situation that led to the error.
+12. Actual result - result obtained after passing through the steps to reproduce13. Expected result - expected correct result.
+14. Additions - a file with logs, a screenshot or any other documents that can help clarify tha cause of the error or indicate a way to solve the problem.
