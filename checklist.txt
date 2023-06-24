@@ -1,0 +1,9 @@
+The structure of the checklist:
+1)Number
+2)Verify 
+3)Result
+4)Comment
+One point in the checklist is one type of check.
+The checklist should reflect the requirements of the program, and nothing unnecessary.
+Complex test tasks should be broken down into small points in the checklist.
+The checklist can be nested in another checklist if the task is very complex.
