@@ -29,20 +29,20 @@ ___________JSON_________________________
     - vim new.json
     
 8. Отправить изменения на внешний репозиторий:
+    - git add new.json
+    - git commit -m "update new.json" && git push
     
-    - git commit -am "update new.json" && git push
-    
-9. Создать файл preferences.json: 
+9. Создать файл preference.json: 
    
     - touch preference.json
     
-10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в   формате JSON: 
+10. В файл preference.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в   формате JSON: 
     
     - cat >> preference.json
     
 11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON: 
     
-    - cat > skils.json
+    - cat > skills.json
     
 12. Отправить сразу 2 файла на внешний репозиторий: 
     
@@ -80,7 +80,7 @@ ___________JSON_________________________
      
 3. Внутри локального XML создать файл new.xml: 
      
-    - touch new.xml
+    - cd XML && touch new.xml
      
 4. Добавить файл под гит: 
      
@@ -99,8 +99,8 @@ ___________JSON_________________________
     - cat > new.xml
      
 8. Отправить изменения на внешний репозиторий: 
-     
-    - git commit -am "update new.xml" && git push
+    - git add new.xml 
+    - git commit -m "update new.xml" && git push
      
 9. Создать файл preferences.xml:
      
@@ -146,14 +146,14 @@ ___________JSON_________________________
 1. Создать внешний репозиторий c названием TXT: 
     
     - create new repository TXT
-    `
+    
 2. Клонировать репозиторий TXT на локальный компьютер:
     
     - git clone https://github.com/vikadedovich/TXT.git
     
 3. Внутри локального TXT создать файл “new.txt”: 
     
-    - touch new.txt
+    - cd TXT && touch new.txt
     
 4. Добавить файл под гит:
     
@@ -172,8 +172,8 @@ ___________JSON_________________________
     - cat >> new.txt
     
 8. Отправить изменения на внешний репозиторий:
-    
-    - git commit -am "update new.txt" && git push
+    - git add new.txt
+    - git commit -m "update new.txt" && git push
     
 9. Создать файл preferences.txt: 
     
