@@ -1,3 +1,7 @@
+### GitHub HW_1
+[JSON](https://github.com/vikadedovich/JSON.git)
+[XML](https://github.com/vikadedovich/XML.git)
+
 ### GitHub HW_2
 
 |№|Задание|Решение|
