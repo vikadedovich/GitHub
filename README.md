@@ -16,7 +16,7 @@
 ||- Mobile testing|`git branch Mobile_testing`|
 |2|Запушить все ветки на внешний репозиторий| `git push --all`|
 |3|В ветке Bag Reports сделать текстовый документ со структурой багрепорта|`git checkout Bug_Reports && cat > bug_report.txt`|
-|4|Запушить структуру багрепорта на внешний репозиторий|`git commit -a "create bug_report.txt" && git push --set-upstream origin Bug_Reports`|
+|4|Запушить структуру багрепорта на внешний репозиторий|`git add bug_report.txt && commit -m"create bug_report.txt" && git push --set-upstream origin Bug_Reports`|
 |5|Вмержить ветку Bag Reports в Main|`git checkout main && git merge Bug_Reports`|
 |6|Запушить main на внешний репозиторий|`git push`|
 |7|В ветке CheckLists набросать структуру чек листа|`git checkout Checklist && cat > checklist.txt`|
